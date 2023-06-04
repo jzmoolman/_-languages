@@ -1,0 +1,12 @@
+
+// To link 
+```
+ld -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib -lSystem -o hello_world hello_intel.o
+```
+
+Mac uses tbs tbd fles to specify Library, this is for security reason?  Can
+read up later more about it
+```
+yasm -f macho64 hello_intel.asm
+```
+
