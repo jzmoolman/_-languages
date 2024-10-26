@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Oct 26 15:28:41 2024
+# Process ID: 43835
+# Current directory: /home/jzmoolman/src/_languages/Getting started with FPGAs/project_3/project_3.runs/synth_1
+# Command line: vivado -log LED_Toggle_Project2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LED_Toggle_Project2.tcl
+# Log file: /home/jzmoolman/src/_languages/Getting started with FPGAs/project_3/project_3.runs/synth_1/LED_Toggle_Project2.vds
+# Journal file: /home/jzmoolman/src/_languages/Getting started with FPGAs/project_3/project_3.runs/synth_1/vivado.jou
+# Running On        :jzmoolman-thinkpad
+# Platform          :Linuxmint
+# Operating System  :LMDE 6 (faye)
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :3215.749 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16450 MB
+# Swap memory       :8799 MB
+# Total Virtual     :25250 MB
+# Available Virtual :15822 MB
+#-----------------------------------------------------------
+source LED_Toggle_Project2.tcl -notrace
