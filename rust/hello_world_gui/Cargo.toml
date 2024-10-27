@@ -1,0 +1,12 @@
+[package]
+name = "hello_world_gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arc = "0.0.1"
+cocoa = "0.26.0"
+core-graphics = "0.24.0"
+objc = "0.2.7"
+parking_lot = "0.12.3"
+parking = "2.2.0"

@@ -1,0 +1,12 @@
+/Users/zach/src/cocoa_colors/target/debug/deps/libcocoa-afd391a7e4d5caea.rmeta: /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/lib.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/appkit.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/base.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/foundation.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/quartzcore.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/macros.rs
+
+/Users/zach/src/cocoa_colors/target/debug/deps/libcocoa-afd391a7e4d5caea.rlib: /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/lib.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/appkit.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/base.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/foundation.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/quartzcore.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/macros.rs
+
+/Users/zach/src/cocoa_colors/target/debug/deps/cocoa-afd391a7e4d5caea.d: /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/lib.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/appkit.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/base.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/foundation.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/quartzcore.rs /Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/macros.rs
+
+/Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/lib.rs:
+/Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/appkit.rs:
+/Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/base.rs:
+/Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/foundation.rs:
+/Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/quartzcore.rs:
+/Users/zach/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/macros.rs:
