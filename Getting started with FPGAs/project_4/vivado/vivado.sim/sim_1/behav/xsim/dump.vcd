@@ -1,0 +1,131 @@
+$date
+   Fri Nov  8 20:43:03 2024
+$end
+
+$version
+  2024.1
+  $dumpfile ("dump.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module Debounce_Filter_TB $end
+$var reg 1 ! r_clk $end
+$var reg 1 " r_bouncy $end
+$var wire 1 # w_debounced $end
+$scope module UUT $end
+$var wire 1 $ i_clk $end
+$var wire 1 % i_bouncy $end
+$var wire 1 # o_debounced $end
+$var reg 2 & r_count [1:0] $end
+$var reg 1 ' r_state $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+b0 &
+0'
+$end
+
+#2000
+1!
+1$
+
+#4000
+0!
+0$
+
+#6000
+1!
+1$
+
+#8000
+0!
+0$
+
+#10000
+1!
+1"
+1$
+1%
+
+#12000
+0!
+0$
+
+#14000
+1!
+0"
+1$
+0%
+b1 &
+
+#16000
+0!
+0$
+
+#18000
+1!
+1"
+1$
+1%
+b0 &
+
+#20000
+0!
+0$
+
+#22000
+1!
+1$
+b1 &
+
+#24000
+0!
+0$
+
+#26000
+1!
+1$
+b10 &
+
+#28000
+0!
+0$
+
+#30000
+1!
+1$
+b11 &
+
+#32000
+0!
+0$
+
+#34000
+1!
+1#
+1$
+b0 &
+1'
+
+#36000
+0!
+0$
+
+#38000
+1!
+1$
+
+#40000
+0!
+0$

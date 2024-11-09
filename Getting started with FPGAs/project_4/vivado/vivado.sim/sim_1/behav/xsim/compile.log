@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_4/verilog/debounce_filter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Debounce_Filter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_4/verilog/debounce_filter_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Debounce_Filter_TB

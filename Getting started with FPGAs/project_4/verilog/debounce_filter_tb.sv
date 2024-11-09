@@ -1,5 +1,6 @@
-// Code your testbench here
-// or browse Examples
+
+`timescale 1ns / 1ps
+
 
 module Debounce_Filter_TB ();
   reg r_clk = 1'b0;

@@ -15,6 +15,8 @@ module Debounce_Filter #(
     end else if (r_count == DEBOUNCE_LIMIT - 1) begin
       r_state <= i_bouncy;
       r_count <= 0;
+    end else begin
+      r_count <= 0;
     end
   end
 
