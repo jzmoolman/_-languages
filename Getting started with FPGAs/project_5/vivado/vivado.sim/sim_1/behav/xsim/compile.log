@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/Demux_1_to_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demux_1_to_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/demux_lfsr_project_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Demux_LFSR_Project_Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/lfsr22.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LFSR_22
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/vivado/vivado.srcs/sim_1/new/demux_lfsr_project_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module demux_lfsr_project_tb

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Nov 10 10:09:11 2024
+# Process ID: 3238231
+# Current directory: /home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/vivado/vivado.runs/synth_1
+# Command line: vivado -log Demux_LFSR_Project_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Demux_LFSR_Project_Top.tcl
+# Log file: /home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/vivado/vivado.runs/synth_1/Demux_LFSR_Project_Top.vds
+# Journal file: /home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/vivado/vivado.runs/synth_1/vivado.jou
+# Running On        :jzmoolman-thinkpad
+# Platform          :Linuxmint
+# Operating System  :LMDE 6 (faye)
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :3686.322 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16450 MB
+# Swap memory       :8799 MB
+# Total Virtual     :25250 MB
+# Available Virtual :12203 MB
+#-----------------------------------------------------------
+source Demux_LFSR_Project_Top.tcl -notrace

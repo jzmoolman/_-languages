@@ -1,0 +1,23 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot demux_lfsr_project_tb_behav xil_defaultlib.demux_lfsr_project_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/demux_lfsr_project_top.v" Line 1. Module Demux_LFSR_Project_Top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/lfsr22.v" Line 1. Module LFSR_22 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/Demux_1_to_4.v" Line 1. Module Demux_1_to_4 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/demux_lfsr_project_top.v" Line 1. Module Demux_LFSR_Project_Top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/lfsr22.v" Line 1. Module LFSR_22 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/Demux_1_to_4.v" Line 1. Module Demux_1_to_4 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.LFSR_22
+Compiling module xil_defaultlib.Demux_1_to_4
+Compiling module xil_defaultlib.Demux_LFSR_Project_Top
+Compiling module xil_defaultlib.demux_lfsr_project_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot demux_lfsr_project_tb_behav

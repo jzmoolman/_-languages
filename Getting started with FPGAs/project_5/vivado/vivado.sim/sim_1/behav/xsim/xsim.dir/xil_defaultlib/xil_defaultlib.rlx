@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/Demux_1_to_4.v,1731257022,verilog,,/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/demux_lfsr_project_top.v,,Demux_1_to_4,,,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/demux_lfsr_project_top.v,1731257078,verilog,,/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/lfsr22.v,,Demux_LFSR_Project_Top,,,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/verilog/lfsr22.v,1731259747,verilog,,/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/vivado/vivado.srcs/sim_1/new/demux_lfsr_project_tb.v,,LFSR_22,,,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/vivado/vivado.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5/vivado/vivado.srcs/sim_1/new/demux_lfsr_project_tb.v,1731257253,verilog,,,,demux_lfsr_project_tb,,,,,,,,

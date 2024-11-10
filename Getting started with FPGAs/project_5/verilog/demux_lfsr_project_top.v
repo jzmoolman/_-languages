@@ -7,10 +7,10 @@ module Demux_LFSR_Project_Top (
   reg  r_lfsr_toggle = 1'b0;
   wire w_lfsr_done;
 
-  LFSR22 lfsr22_inst (
+  LFSR_22 lfsr_22_inst (
       .i_clk(i_clk),
-      .o_lfsr_data(),
-      .olfsr_done(w_lfsr_done)
+      .o_data(),
+      .o_done(w_lfsr_done)
   );
 
   always @(posedge i_clk) begin
@@ -20,7 +20,7 @@ module Demux_LFSR_Project_Top (
   Demux_1_to_4 demux_inst (
       .i_data(r_lfsr_toggle),
       .i_sel (i_switch),
-      .o_led (o_led)
+      .o_data (o_led)
   );
 
 endmodule
