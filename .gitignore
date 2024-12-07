@@ -2,3 +2,5 @@
 **/_.github
 **/zo_BACKUP
 **/.DS_Store
+**/target
+**/.idea
