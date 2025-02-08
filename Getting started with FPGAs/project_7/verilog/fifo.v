@@ -6,32 +6,33 @@ module FIFO #(
     input                     i_clk,
     // write side
     input                     i_wr_dv,
-    input  [       WIDHT-1:0] i_wr_data,
-    input  [clog2(DEPTH-1):0] i_af_level,
+    input  [       WIDTH-1:0] i_wr_data,
+    input  [$clog2(DEPTH)-1:0] i_af_level,
     output                    o_af_flag,
     output                    o_full,
     // read side
     input                     i_rd_en,
     output                    o_rd_dv,
-    output [       WIDTH-1:0] o_rd_data,
-    input  [clog2(DEPTH-1):0] i_ae_level,
-    output                    o_ae_flag
+    output reg [   WIDTH-1:0] o_rd_data,
+    input  [$clog2(DEPTH)-1:0] i_ae_level,
+    output                    o_ae_flag,
+    output                    o_empty
 );
 
-  reg  [clog2(DEPTH-1):0] r_wr_addr;
-  reg  [clog2(DEPTH-1):0] r_rd_addr;
-  reg  [  clog2(DEPTH):0] r_count;
+  reg  [$clog2(DEPTH)-1:0] r_wr_addr;
+  reg  [$clog2(DEPTH)-1:0] r_rd_addr;
+  reg  [  $clog2(DEPTH):0] r_count;
 
   wire                    w_rd_dv;
-  wire [       WIDHT-1:0] w_rd_data;
+  wire [       WIDTH-1:0] w_rd_data;
 
   RAM_2Port #(
-      .WIDHT(WIDTH),
+      .WIDTH(WIDTH),
       .DEPTH(DEPTH)
   ) ram_inst (
       // write port
       .i_wr_clk (i_clk),
-      .i_wr_data(r_wr_addr),
+      .i_wr_addr(r_wr_addr),
       .i_wr_dv  (i_wr_dv),
       .i_wr_data(i_wr_data),
       // read prot
@@ -58,7 +59,7 @@ module FIFO #(
       end
 
       // read
-      if (i_rd_dv) begin
+      if (i_rd_en) begin
         if (r_rd_addr == DEPTH - 1) begin
           r_rd_addr <= 0;
         end else begin
@@ -89,21 +90,21 @@ module FIFO #(
   assign o_full = (r_count == DEPTH) || (r_count == DEPTH - 1 && i_wr_dv && !i_rd_en);
   assign o_empty = (r_count == 0);
 
-  assign o_AF_Flag = (r_Count > DEPTH - i_AF_Level);
-  assign o_AE_Flag = (r_Count < i_AE_Level);
+  assign o_af_flag = (r_count > DEPTH - i_af_level);
+  assign o_ae_flag = (r_count < i_ae_level);
 
-  assign o_rd_en = w_rd_dv;
+  assign o_rd_dv = w_rd_dv;
 
   /////////////////////////////////////////////////////////////////////////////
   // ASSERTION CODE, NOT SYNTHESIZED
   // synthesis translate_off
   // Ensures that we never read from empty FIFO or write to full FIFO.
-  always @(posedge i_Clk) begin
-    if (i_Rd_En && !i_Wr_DV && r_Count == 0) begin
+  always @(posedge i_clk) begin
+    if (i_rd_en && !i_wr_dv && r_count == 0) begin
       $error("Error! Reading Empty FIFO");
     end
 
-    if (i_Wr_DV && !i_Rd_En && r_Count == DEPTH) begin
+    if (i_wr_dv && !i_rd_en && r_count == DEPTH) begin
       $error("Error! Writing Full FIFO");
     end
   end

@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_6/verilog/ram_2port.v,1731280014,verilog,,,,RAM_2Port,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_7/verilog/fifo.v,1731303604,verilog,,/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_6/verilog/ram_2port.v,,FIFO,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_7/verilog/fifo_tb.sv,1731303975,systemVerilog,,,,FIFO_TB,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_7/vivado/vivado.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,

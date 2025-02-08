@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_7/verilog/fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_6/verilog/ram_2port.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_2Port
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_7/verilog/fifo_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FIFO_TB
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_7/vivado/vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

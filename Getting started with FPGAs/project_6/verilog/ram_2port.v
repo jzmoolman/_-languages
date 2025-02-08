@@ -1,18 +1,18 @@
 module RAM_2Port #(
-    parameters WIDTH = 16,
+    parameter WIDTH = 16,
     DEPTH = 256
 ) (
     // Write signals
     input                      i_wr_clk,
-    input  [$clog2(Depth)-1:0] i_wr_addr,
+    input  [$clog2(DEPTH)-1:0] i_wr_addr,
     input                      i_wr_dv,    //data valid
     input  [        WIDTH-1:0] i_wr_data,
     // read signals
     input                      i_rd_clk,
-    input  [$clog2(Depth)-1:0] i_rd_addr,
+    input  [$clog2(DEPTH)-1:0] i_rd_addr,
     input                      i_rd_en,
-    output                     o_rd_dv,
-    output [        WIDTH-1:0] o_rd_data
+    output reg                 o_rd_dv,
+    output reg [    WIDTH-1:0] o_rd_data
 
 );
 

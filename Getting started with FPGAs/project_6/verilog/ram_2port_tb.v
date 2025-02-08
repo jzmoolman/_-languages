@@ -5,7 +5,7 @@ module RAM_2Port_TB ();
 
   reg r_clk = 1'b0;
   reg r_wr_dv = 1'b0, r_rd_en = 1'b0;
-  reg [$clog2(depth)-1:0] r_wr_addr = 0, r_rd_addr = 0;
+  reg [$clog2(DEPTH)-1:0] r_wr_addr = 0, r_rd_addr = 0;
   reg  [WIDTH-1:0] r_wr_data = 0;
   wire [WIDTH-1:0] w_rd_data;
 
