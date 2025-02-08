@@ -1,0 +1,79 @@
+$date
+   Sat Feb  8 12:55:11 2025
+$end
+
+$version
+  2024.1
+  $dumpfile ("dump.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module switches_to_leds_TB $end
+$var reg 1 ! r_switch_1 $end
+$var reg 1 " r_switch_2 $end
+$var reg 1 # r_switch_3 $end
+$var reg 1 $ r_switch_4 $end
+$var wire 1 % w_led_1 $end
+$var wire 1 & w_led_2 $end
+$var wire 1 ' w_led_3 $end
+$var wire 1 ( w_led_4 $end
+$scope module UUT $end
+$var wire 1 ) i_switch_1 $end
+$var wire 1 * i_switch_2 $end
+$var wire 1 + i_switch_3 $end
+$var wire 1 , i_switch_4 $end
+$var wire 1 % o_led_1 $end
+$var wire 1 & o_led_2 $end
+$var wire 1 ' o_led_3 $end
+$var wire 1 ( o_led_4 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+$end
+
+#10000
+1!
+1%
+1)
+
+#20000
+0!
+1"
+0%
+1&
+0)
+1*
+
+#30000
+0"
+1#
+0&
+1'
+0*
+1+
+
+#40000
+0#
+1$
+0'
+1(
+0+
+1,

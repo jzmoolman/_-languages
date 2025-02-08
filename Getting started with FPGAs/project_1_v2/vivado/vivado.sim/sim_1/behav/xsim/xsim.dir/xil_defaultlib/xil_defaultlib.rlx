@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_1_v2/verilog/tb.sv,1739044502,systemVerilog,,,,switches_to_leds_TB,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_1_v2/vhd/tb.vhd,1739046135,vhdl,,,,switches_to_leds_tb,,,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_1_v2/vhd/top.vhd,1739046205,vhdl,/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_1_v2/vhd/tb.vhd,,,switches_to_leds,,,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_1_v2/vivado/vivado.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
