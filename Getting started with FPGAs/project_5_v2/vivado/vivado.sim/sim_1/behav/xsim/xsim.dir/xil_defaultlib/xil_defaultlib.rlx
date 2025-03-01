@@ -1,0 +1,10 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5_v2/verilog/demux_1_to_4.v,1739507643,verilog,,/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5_v2/verilog/demux_lfsr_project_top.v,,demux_1_to_4,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5_v2/verilog/demux_1_to_4_tb.sv,1739507916,systemVerilog,,,,demux_1_to_4_tb,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5_v2/verilog/demux_lfsr_project_top.v,1739544928,verilog,,/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5_v2/verilog/lfsr.v,,demux_lfsr_project_top,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5_v2/verilog/lfsr.v,1739561429,verilog,,,,lfsr_22,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5_v2/verilog/lfsr_tb.sv,1739561468,systemVerilog,,,,lfsr_tb,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_5_v2/vivado/vivado.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,

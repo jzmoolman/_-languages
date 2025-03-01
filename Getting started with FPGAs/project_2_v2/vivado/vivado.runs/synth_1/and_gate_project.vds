@@ -1,0 +1,214 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Feb  8 15:59:02 2025
+# Process ID: 35162
+# Current directory: /home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/vivado/vivado.runs/synth_1
+# Command line: vivado -log and_gate_project.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source and_gate_project.tcl
+# Log file: /home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/vivado/vivado.runs/synth_1/and_gate_project.vds
+# Journal file: /home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/vivado/vivado.runs/synth_1/vivado.jou
+# Running On        :jzmoolman-thinkpad
+# Platform          :Linuxmint
+# Operating System  :LMDE 6 (faye)
+# Processor Detail  :12th Gen Intel(R) Core(TM) i7-12700H
+# CPU Frequency     :3489.294 MHz
+# CPU Physical cores:14
+# CPU Logical cores :20
+# Host memory       :16450 MB
+# Swap memory       :8799 MB
+# Total Virtual     :25250 MB
+# Available Virtual :20343 MB
+#-----------------------------------------------------------
+source and_gate_project.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental {/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/vivado/vivado.srcs/utils_1/imports/synth_1/and_gate_project_vhdl.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from /home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/vivado/vivado.srcs/utils_1/imports/synth_1/and_gate_project_vhdl.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top and_gate_project -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 35191
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1890.293 ; gain = 418.598 ; free physical = 6622 ; free virtual = 18225
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'and_gate_project' [/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/verilog/top.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'and_gate_project' (0#1) [/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/verilog/top.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1965.262 ; gain = 493.566 ; free physical = 6538 ; free virtual = 18142
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1980.105 ; gain = 508.410 ; free physical = 6530 ; free virtual = 18133
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1988.109 ; gain = 516.414 ; free physical = 6526 ; free virtual = 18129
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint /home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/vivado/vivado.srcs/utils_1/imports/synth_1/and_gate_project_vhdl.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1997.016 ; gain = 525.320 ; free physical = 6520 ; free virtual = 18124
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1997.016 ; gain = 525.320 ; free physical = 6520 ; free virtual = 18124
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1997.016 ; gain = 525.320 ; free physical = 6515 ; free virtual = 18119
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7k325tffg900-2 does not have CEAM library.
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |IBUF |     2|
+|3     |OBUF |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     4|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.023 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+Synthesis Optimization Complete : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2164.031 ; gain = 692.328 ; free physical = 6331 ; free virtual = 17938
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2171.961 ; gain = 0.000 ; free physical = 6625 ; free virtual = 18232
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2257.617 ; gain = 0.000 ; free physical = 6543 ; free virtual = 18150
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 7da9e07c
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2257.617 ; gain = 802.832 ; free physical = 6543 ; free virtual = 18150
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1542.985; main = 1542.985; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2257.617; main = 2257.617; forked = 0.000
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2281.629 ; gain = 0.000 ; free physical = 6543 ; free virtual = 18150
+INFO: [Common 17-1381] The checkpoint '/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_2_v2/vivado/vivado.runs/synth_1/and_gate_project.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file and_gate_project_utilization_synth.rpt -pb and_gate_project_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Feb  8 15:59:16 2025...

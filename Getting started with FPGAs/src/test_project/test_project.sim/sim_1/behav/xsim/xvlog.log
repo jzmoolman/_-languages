@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/src/verilog/ram_2port.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/src/verilog/ram_2port_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_2port_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/src/test_project/test_project.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

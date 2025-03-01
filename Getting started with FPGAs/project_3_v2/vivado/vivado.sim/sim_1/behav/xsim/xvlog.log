@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_3_v2/verilog/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_toggle_project
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_3_v2/vivado/vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -2,3 +2,6 @@ Running: xsim.dir/switches_to_leds_TB_behav/xsimk -simmode gui -wdb switches_to_
 Design successfully loaded
 Design Loading Memory Usage: 19916 KB (Peak: 20360 KB)
 Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 101652 KB (Peak: 159184 KB)
+Simulation CPU Usage: 30 ms

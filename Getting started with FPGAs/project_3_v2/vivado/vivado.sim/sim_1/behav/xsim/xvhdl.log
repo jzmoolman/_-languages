@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_3_v2/vhdl/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'led_toggle_project'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/jzmoolman/src/_-languages/Getting started with FPGAs/project_3_v2/vhdl/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'led_toggle_project_TB'
