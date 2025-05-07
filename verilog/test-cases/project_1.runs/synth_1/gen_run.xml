@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1740802293" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/test2.dcp">
-  <File Type="VDS-TIMINGSUMMARY" Name="counter_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="counter.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="counter_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="counter_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="counter_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="counter.vds"/>
-  <File Type="REPORTS-TCL" Name="counter_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="counter_timing_summary_synth.pb"/>
-  <File Type="PA-TCL" Name="counter.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1740927093" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/test2.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="counter0_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="counter0.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="counter0_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="counter0_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="counter0_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="counter0.vds"/>
+  <File Type="REPORTS-TCL" Name="counter0_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="counter0_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="counter0.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/counter.sv">
@@ -36,7 +36,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="counter"/>
+      <Option Name="TopModule" Val="counter0"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -60,9 +60,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

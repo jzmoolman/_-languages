@@ -13,13 +13,19 @@ module top();
     logic data;
     mux mux_inst(.*);
     
-    logic [2:0] cnt;
+    logic [2:0] cnt1;
+    logic [2:0] cnt0;
     logic rst;
-    counter counter_ints(
+    counter1 counter1_ints(
     .clk(clk),
     .rst(rst),
-    .cnt(cnt));
+    .cnt(cnt1));
  
+ 
+ counter0 counter0_ints(
+    .clk(clk),
+    .rst(rst),
+    .cnt(cnt0));
     testbench testbench_inst(.*);
  
     initial begin

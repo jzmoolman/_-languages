@@ -2,9 +2,9 @@
 2020.2
 May 22 2024
 18:54:44
-/home/jzmoolman/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
-/home/jzmoolman/project_1/project_1.srcs/sim_1/new/testbench.sv,1740801332,systemVerilog,,/home/jzmoolman/project_1/project_1.srcs/sources_1/new/top.sv,,testbench,,uvm,,,,,,
-/home/jzmoolman/project_1/project_1.srcs/sources_1/new/counter.sv,1740801629,systemVerilog,,/home/jzmoolman/project_1/project_1.srcs/sources_1/new/ff.sv,,counter,,uvm,,,,,,
-/home/jzmoolman/project_1/project_1.srcs/sources_1/new/ff.sv,1740799933,systemVerilog,,/home/jzmoolman/project_1/project_1.srcs/sources_1/new/mux.sv,,ff,,uvm,,,,,,
-/home/jzmoolman/project_1/project_1.srcs/sources_1/new/mux.sv,1740796316,systemVerilog,,/home/jzmoolman/project_1/project_1.srcs/sim_1/new/testbench.sv,,mux,,uvm,,,,,,
-/home/jzmoolman/project_1/project_1.srcs/sources_1/new/top.sv,1740800758,systemVerilog,,,,top,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sim_1/new/testbench.sv,1740801332,systemVerilog,,/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sources_1/new/top.sv,,testbench,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sources_1/new/counter.sv,1740929420,systemVerilog,,/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sources_1/new/ff.sv,,counter0;counter1,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sources_1/new/ff.sv,1740799933,systemVerilog,,/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sources_1/new/mux.sv,,ff,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sources_1/new/mux.sv,1740796316,systemVerilog,,/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sim_1/new/testbench.sv,,mux,,uvm,,,,,,
+/home/jzmoolman/src/_-languages/verilog/test-cases/project_1.srcs/sources_1/new/top.sv,1740926752,systemVerilog,,,,top,,uvm,,,,,,
